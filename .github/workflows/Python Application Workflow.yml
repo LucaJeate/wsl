@@ -15,5 +15,6 @@ jobs:
                 python-version: '3.8'
                 cache: 'pip'
         - run: pip install -r requirements.txt
+        
         - name: Display Python Version
           run: python -c "import pandas; print('Panda Dispo')"
