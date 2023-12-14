@@ -17,4 +17,4 @@ jobs:
         - run: pip install -r requirements.txt
 
         - name: Display Python Version
-          run: python -c "import pandas; print('Panda Dispo')"
+          run: python app.py
