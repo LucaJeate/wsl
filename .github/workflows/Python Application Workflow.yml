@@ -1,6 +1,8 @@
 name: python-application-workflow
 
-on: [pull_request]
+on:
+    schedule:
+        - cron: '38 16 * * *'
 
 jobs:
   build-and-test:
